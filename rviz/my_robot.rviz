@@ -36,6 +36,8 @@ Panels:
     Name: Time
     SyncMode: 0
     SyncSource: ""
+Toolbars:
+  toolButtonStyle: 2
 Visualization Manager:
   Class: ""
   Displays:
@@ -102,6 +104,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        world:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -161,7 +167,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: base_link
+    Fixed Frame: world
     Frame Rate: 30
   Name: root
   Tools:
@@ -197,10 +203,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.340398431
+      Pitch: 0.0453985296
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.63039792
+      Yaw: 2.46540117
     Saved: ~
 Window Geometry:
   Displays:
